@@ -1,0 +1,4 @@
+let e: WheelEvent = {
+  
+}
+export {}
