@@ -49,3 +49,14 @@ let SkuType2 = {
 }
 console.log(SkuType2.asset);
 console.log(SkuType2.consumable);
+
+{
+  enum a {
+    a,
+    b,
+  }
+  enum a {
+    c = 3,
+    d = 4,
+  }
+}
