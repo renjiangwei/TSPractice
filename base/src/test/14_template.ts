@@ -109,6 +109,10 @@ type h = g<f>
       this.a = a
     }
   }
+  type b = S<number> 
+  let b:b = {
+    a: 1
+  }
   let a: S<string> = new S<string>('123')
 }
 export {}
