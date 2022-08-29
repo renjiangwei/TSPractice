@@ -46,3 +46,12 @@
     d = c // 返回值是对象时，就像对象的兼容性，多出属性可以赋值给少的
   }
 }
+
+{
+  let a = (a: string) => {
+    a && console.log(a, 'a');
+  }
+  let b: string | null
+  b = null
+  a(b!)
+}
