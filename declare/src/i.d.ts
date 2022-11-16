@@ -1,5 +1,3 @@
-declare type AA = 'H' | 'J'
-declare const PEOPLE_COUNT = 1
-declare type SIZE = 's' | 'm' | 'l' | 'xl'
-
-declare let getSum: (...args: Array<number>) => number
+declare module '*/demo1.js' {
+  export function addAll(...arg: Array<number>): number
+}
