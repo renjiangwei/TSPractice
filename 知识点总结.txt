@@ -1,0 +1,37 @@
+CSS JS TS代码规范、知识点
+
+# CSS部分
+选择器
+盒子模型
+定位
+flex
+伪类
+
+# JS部分
+## 代码规范
+
+const
+let
+缩进 空格 html双引号 js单引号 语义化变量 没必要的变量
+window上的变量带上window.
+
+
+## 知识点
+``
+引用、值传递 可能会造成的影响
+高阶函数 map filter reduce sort some every find 
+Promise await async
+闭包
+箭头函数
+纯函数
+esmodule
+
+# TS部分
+
+## 知识点
+类型 
+interface 
+type 
+enum
+T
+协变 逆变
