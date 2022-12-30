@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>block-inline</title>
+</head>
+<body>
+  <div class="block">block1</div>
+  <div class="block">block2</div>
+  <p>
+    段落段落段落段落
+    <span class="inline">123</span>
+    <span class="inline">456</span>
+    段落段落段落
+  </p>
+  <p>
+    段落段落段落段落
+    <span class="inline-block">123</span>
+    <span class="inline-block">456</span>
+    段落段落段落
+  </p>
+  <p>
+    段落段落段落段落
+    <span class="block">123</span>
+    <span class="block">456</span>
+    段落段落段落
+  </p>
+</body>
+<style>
+  .block{
+    display: block;
+    height: 100px;
+    background-color: aqua;
+    margin: 5px;
+  }
+  .inline{
+    /* 上下无效 */
+    margin: 20px;
+    padding: 10px;
+  }
+  .inline-block{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+  }
+</style>
+</html>

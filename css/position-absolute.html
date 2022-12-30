@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>absolute</title>
+</head>
+<body>
+  <div class="div1 border">
+    div1
+    <div class="div2 border relative">
+      div2
+      <div class="div3 border">
+        div3
+        <div class="block">test1</div>
+        <div class="block absolute">test2</div>
+        <div class="block">test3</div>
+      </div>
+    </div>
+  </div>
+  <style>
+    .border{
+      background-color: antiquewhite;
+      border: 1px solid #00f;
+    }
+    .div1{
+      width: 400px;
+      height: 400px;
+    }
+    .div2{
+      width: 300px;
+      height: 300px;
+    }
+    .div3{
+      width: 200px;
+      height: 200px;
+    }
+    .block{
+      height: 50px;
+      background-color: aqua;
+      border: 2px solid #f0f;
+    }
+    .absolute{
+      position: absolute;
+      /* left: 0;
+      right: 0; */
+      /* left: 0;
+      top: 0; */
+    }
+    .relative{
+      position: relative;
+    }
+  </style>
+</body>
+</html>
