@@ -106,5 +106,8 @@ console.log(other);
 [1,2,34].reduce((a, b) => a + b, 1);
 [1,2,3,4].map(() => {
   console.log(this, 'this')
-})
+});
+[1,2,3].forEach(() => {
+
+}, {})
 export {}
