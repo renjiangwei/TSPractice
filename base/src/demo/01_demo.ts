@@ -103,4 +103,8 @@ console.log(other);
     a: false
   }
 }
+[1,2,34].reduce((a, b) => a + b, 1);
+[1,2,3,4].map(() => {
+  console.log(this, 'this')
+})
 export {}
