@@ -12,7 +12,7 @@ const p = new Promise((resolve, reject) => {
 })
 // 两次catchd
 p.then((a) => {
-  console.log(a,'resolve')
+  console.log(a, 'resolve')
 }, (err) => {
   console.log(err, 'reject')
   throw new Error('new error')
@@ -50,8 +50,7 @@ const p3 = Promise.all([
 ])
 p3.then(res => {
   console.log(res, 'res3')
-})
-.catch(err => {
+}).catch(err => {
   console.log(err, 'err3')
 })
 // Promise.race([])数组是promise数组，但是这些promise最先resolve作为回调的结果
@@ -66,5 +65,5 @@ const p4 = Promise.race([
   console.log(err, 'err4')
 })
 
-Promise.resolve
-Promise.reject
+Promise.resolve() // 返回一个fulfilled状态的promise
+Promise.reject()  // 返回一个rejected状态的promise
